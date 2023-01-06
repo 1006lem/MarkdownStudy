@@ -47,6 +47,11 @@
  
 ### 6. 링크
 ### 7. 이미지
+~~~
+<img width="300" src="(이미지경로).png">
+~~~
+<img width="300" src="https://user-images.githubusercontent.com/68532437/211111919-861dab9f-5764-4f08-8057-83683e4f682a.png">
+
 ### 8. 강조
 ### 9. 표
 ### 10. 이모티콘
