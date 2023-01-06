@@ -1,4 +1,4 @@
-# Markdown 내용을 정리합니다.
+# Markdown 내용 정리
 
 ---
 
