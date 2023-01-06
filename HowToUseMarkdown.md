@@ -21,6 +21,7 @@
   - <a href="https://goddaehee.tistory.com/307">마크다운(MarkDown) 사용법</a>
   - <a href="https://heropy.blog/2017/09/30/markdown/ MarkDown">MarkDown 사용법 총정리</a>
   - <a href="https://wwlee94.github.io/category/blog/getting-started-markdown/">마크다운 (Markdown) 문법 알아보기</a>  
+  - <a href="https://80000coding.oopy.io/bbfbfed5-d55c-4aaf-a2b8-b52578472d0d">마크다운 초보가 쓰는 마크다운 고수되는 법</a>  
 ---
 ## 문법
 ### 1. 제목(Header)
