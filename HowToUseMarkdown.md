@@ -170,19 +170,16 @@ computer networking system[^1]
 ~~~
 $$\textcolor{yellow}{\text{Hello }}{\text{Welcome}}\textcolor{yellow}{\text{ my page}}$$
 $\textcolor{green}{\text{Hello, }}$ Welcome!
-
-<span style="color:red">red</span>
-<p style='color:red>red</p><br>
-<font color='red'>red</font><br>
-<b stype='color:red'>red</b><br>
 ~~~
 $$\textcolor{yellow}{\text{Hello }}{\text{Welcome}}\textcolor{yellow}{\text{ my page}}$$
 $\textcolor{green}{\text{Hello, }}$ Welcome!
 
+<!--
 ~~<span style="color:red">red</span>~~
 ~~<p style='color:red>red</p><br>~~
 ~~<font color='red'>red</font><br>~~
 ~~<b stype='color:red'>red</b><br>~~
+-->
 ~~~
 ```diff
 - red
@@ -200,12 +197,12 @@ $\textcolor{green}{\text{Hello, }}$ Welcome!
 @@ purple + bold @@
 ```
 
- ### 13. 체크박스
- ~~~
+ 
+ <!-- ### 13. 체크박스
  - [] check1
  - [] check2
  ~~~
 - [] check1
 - [] check2
-
+-->
 
