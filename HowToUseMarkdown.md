@@ -163,20 +163,28 @@ you can just use Tilede(~)
 - <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji Cheat Sheet</a>
 
 ### 10. 각주(Footnotes)
+#1.
 ~~~
 # 1. 이 방식은 github에서 사용할 수 **없다**
 computer networking system[^1]
 [^1]: a definition, ...
-
+~~~
 #2.  
+~~~
+# 2. 
+설명🔗<sup id="a3">[1](#f3)</sup>
+
+<b id="f3"> 설명(spool)</b><br>
+  설명
+  [↩](#a3)
+  
 ~~~
 설명🔗<sup id="a3">[1](#f3)</sup>
 
 <b id="f3"> 설명(spool)</b><br>
   설명
   [↩](#a3)
-~~~
-
+  
 ### 11. 접기/펼치기
 ~~~
 <details>
@@ -185,6 +193,7 @@ computer networking system[^1]
 반갑습니다:star2:
 </details>
 ~~~
+
 <details>
 <summary>click me</summary>
 
