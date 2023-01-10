@@ -129,6 +129,10 @@ you can just use Tilede(~)
 ~~~
 [1. 제목(Header)](1.제목-Header)<br>
 #### 외부 링크
+~~~
+*더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
+~~~
+*더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
 
 ### 7. 이미지(Image)
 - 비율로 지정 가능(width = "30%")
