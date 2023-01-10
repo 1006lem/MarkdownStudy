@@ -137,6 +137,18 @@ you can just use Tilede(~)
 ~~~
 <img width="300" src="https://user-images.githubusercontent.com/68532437/211111919-861dab9f-5764-4f08-8057-83683e4f682a.png">
 
+- 이미지 클릭 시 원본 링크로 연결되는 
+~~~
+[![텍스트](이미지 파일 경로)](연결되고 싶은 링크 주소)
+~~~
+```
+[![inodeDataBlock구조](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe5485c09-fe76-4d1f-a007-550ce005c1c2%2FUntitled.png&blockId=05be8ef1-f3d0-4b29-8a4b-e8b18f2de89f)](https://driip.me/dbd9bc58-0ce1-437b-af4f-7b2bde2b1bf3)
+```
+[![inodeDataBlock구조](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe5485c09-fe76-4d1f-a007-550ce005c1c2%2FUntitled.png&blockId=05be8ef1-f3d0-4b29-8a4b-e8b18f2de89f)](https://driip.me/dbd9bc58-0ce1-437b-af4f-7b2bde2b1bf3)
+
+:warning: 궁금한 점: 이렇게 이미지 클릭 시 원본 링크로 연결되도록 하면, 이미지의 크기는 수정할 수 없나?
+
+
 ### 8. 표(Table)
 ### 9. 이모티콘
 ~~~
@@ -146,10 +158,19 @@ you can just use Tilede(~)
 
 - <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji Cheat Sheet</a>
 
-### ~~10. 각주(Footnotes)~~ github에서는 지원 x
+### 10. 각주(Footnotes)
 ~~~
+# 1. 이 방식은 github에서 사용할 수 **없다**
 computer networking system[^1]
 [^1]: a definition, ...
+
+#2.  
+~~~
+설명🔗<sup id="a3">[1](#f3)</sup>
+
+<b id="f3"> 설명(spool)</b><br>
+  설명
+  [↩](#a3)
 ~~~
 
 ### 11. 접기/펼치기
@@ -196,6 +217,10 @@ $\textcolor{green}{\text{Hello, }}$ Welcome!
 # gray
 @@ purple + bold @@
 ```
+### 13. 공백(blank)
+- https://kimasill.tistory.com/entry/MarkDown-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0%EA%B3%B5%EB%B0%B1-%EC%A4%84%EB%B0%94%EA%BF%88-%EC%82%AC%EC%9A%A9%EB%B2%95
+- 1. 특수 코드 `&nbsp;` 사용
+- 2. 전각 공백 사용: :star2:  :star2: 
 
  
  <!-- ### 13. 체크박스
