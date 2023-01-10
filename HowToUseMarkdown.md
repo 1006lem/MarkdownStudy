@@ -27,7 +27,7 @@
   - <a href="https://github.com/yona-projects/yona/issues/474  ">마크다운 color text</a>     
 ---
 ## 문법
-### 목차
+### 🌟 목차
 [1. 제목(Header)](1.제목-Header)<br>
 [2. 강조(Enphasis)](2.강조-Emphasis)<br>
 [3. 인용(Block-quotes)](3.인용-Block-Quotes)<br>
@@ -38,6 +38,7 @@
 [8. 표(Table)](8.표-Table)<br>
 [9. 이모티콘](9.이모티콘)<br>
 
+---
 ### 1. 제목(Header)
 ### 2. 강조(Enphasis)
 #### - 버튼 강조
