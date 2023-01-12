@@ -40,13 +40,13 @@
 [7. 이미지(Image)](#7.이미지-Image)<br>
 [8. 표(Table)](#8.표-Table)<br>
 [9. 이모티콘](#9.이모티콘)<br>
--->
 ---
+-->
+
 ### 0. 공백(blank)
 - https://kimasill.tistory.com/entry/MarkDown-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0%EA%B3%B5%EB%B0%B1-%EC%A4%84%EB%B0%94%EA%BF%88-%EC%82%AC%EC%9A%A9%EB%B2%95
 - 1. 특수 코드 `&nbsp;` 사용
 - 2. 전각 공백 사용: :star2:  :star2: 
-
 
 ### 1. 링크(Link)
 #### 내부 링크
@@ -56,10 +56,10 @@
 - 내부의 괄호는 작성 x
 
 ~~~
-[1. 제목(Header)](#1-제목-header)<br>
+[마크다운(Markdown) 이란?](#마크다운Markdown-이란)
 ~~~
-[1. 제목(Header)](#1-제목-header)<br>
-
+[마크다운(Markdown) 이란?](#마크다운Markdown-이란)
+<br>
 
 #### 외부 링크
 ~~~
