@@ -28,8 +28,8 @@
 ---
 ## 문법
 ### 🌟 목차
-[1. 제목(Header)](#1.제목-Header)<br>
-[2. 강조(Enphasis)](#2.강조-Emphasis)<br>
+[1. 제목(Header)](#1.-제목-(header))<br>
+[2. 강조(Enphasis)](###2.강조-(Emphasis))<br>
 [3. 인용(Block-quotes)](#3.인용-Block-Quotes)<br>
 [4. 코드 블럭(Code Block)](#4.코드블럭-CodeBlock)<br>
 [5. 리스트(List))](#5.리스트-List)<br>
@@ -126,11 +126,13 @@ you can just use Tilede(~)
 ### 6. 링크(Link)
 #### 내부 링크
 - 문자의 공백은 `-` 로 
+- 영어는 소문자로
 <!--https://uiyoji-journal.tistory.com/45-->
+<!--https://png93.github.io/markdown-link/#coding%EC%9D%84-%EC%9E%98%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%96%B4%EC%9A%94-->
 ~~~
-[1. 제목(Header)](1.제목-Header)<br>
+[1. 제목(Header)](#1.-제목-header)<br>
 ~~~
-[1. 제목(Header)](1.제목-Header)<br>
+[1. 제목(Header)](#1.-제목-header)<br>
 
 
 #### 외부 링크
