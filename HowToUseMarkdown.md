@@ -28,7 +28,9 @@
   - <a href="https://jihyehwang09.github.io/2020/03/04/markdown-how-to-make-link/">목차쓰기</a>
 ---
 ## 문법
+<!--
 ### 🌟 목차
+
 [1. 제목(Header)](#1.-제목-(header))<br>
 [2. 강조(Enphasis)](###2.강조-(Emphasis))<br>
 [3. 인용(Block-quotes)](#3.인용-Block-Quotes)<br>
@@ -38,10 +40,56 @@
 [7. 이미지(Image)](#7.이미지-Image)<br>
 [8. 표(Table)](#8.표-Table)<br>
 [9. 이모티콘](#9.이모티콘)<br>
-
+-->
 ---
-### 1. 제목(Header)
-### 2. 강조(Enphasis)
+### 0. 공백(blank)
+- https://kimasill.tistory.com/entry/MarkDown-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0%EA%B3%B5%EB%B0%B1-%EC%A4%84%EB%B0%94%EA%BF%88-%EC%82%AC%EC%9A%A9%EB%B2%95
+- 1. 특수 코드 `&nbsp;` 사용
+- 2. 전각 공백 사용: :star2:  :star2: 
+
+
+### 1. 링크(Link)
+#### 내부 링크
+- 문자의 공백은 `-` 로 
+- 영어는 소문자로
+- 특수 문자(`.`, `?`, ''...) 는 작성 x
+- 내부의 괄호는 작성 x
+
+~~~
+[1. 제목(Header)](#1-제목-header)<br>
+~~~
+[1. 제목(Header)](#1-제목-header)<br>
+
+
+#### 외부 링크
+~~~
+*더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
+~~~
+*더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
+
+### 2. 이미지(Image)
+- 비율로 지정 가능(width = "30%")
+~~~
+<img width="300" src="(이미지경로).png">
+~~~
+<img width="300" src="https://user-images.githubusercontent.com/68532437/211111919-861dab9f-5764-4f08-8057-83683e4f682a.png">
+
+- 이미지 클릭 시 원본 링크로 연결되는 
+~~~
+[![텍스트](이미지 파일 경로)](연결되고 싶은 링크 주소)
+~~~
+```
+[![inodeDataBlock구조](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe5485c09-fe76-4d1f-a007-550ce005c1c2%2FUntitled.png&blockId=05be8ef1-f3d0-4b29-8a4b-e8b18f2de89f)](https://driip.me/dbd9bc58-0ce1-437b-af4f-7b2bde2b1bf3)
+```
+[![inodeDataBlock구조](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe5485c09-fe76-4d1f-a007-550ce005c1c2%2FUntitled.png&blockId=05be8ef1-f3d0-4b29-8a4b-e8b18f2de89f)](https://driip.me/dbd9bc58-0ce1-437b-af4f-7b2bde2b1bf3)
+
+:warning: 궁금한 점: 이렇게 이미지 클릭 시 원본 링크로 연결되도록 하면, 이미지의 크기는 수정할 수 없나?
+
+
+
+
+### 3. 제목(Header)
+### 4. 강조(Enphasis)
 #### - 버튼 강조
 ~~~
 <kbd>ESC</kbd>를 누르세요
@@ -82,13 +130,13 @@ __italic__ and **bold**<br>
 > __Note__
 > inform
 
-### 3. 인용(Block-quotes)
+### 5. 인용(Block-quotes)
 ~~~
 >
 >>
 >>>
 ~~~
-### 4. 코드 블럭(Code Block)
+### 6. 코드 블럭(Code Block)
 
     ```c
     //Code Block for c
@@ -112,7 +160,7 @@ you can just use Tilede(~)
 ~~~
     
     
-### 5. 리스트(List)
+### 7. 리스트(List)
 ~~~
 * 오늘의 점심
   - 돈까스
@@ -124,44 +172,9 @@ you can just use Tilede(~)
   + 우동
   * 샐러드
  
-### 6. 링크(Link)
-#### 내부 링크
-- 문자의 공백은 `-` 로 
-- 영어는 소문자로
-- 특수 문자(`.`, `?`, ''...) 는 작성 x
-- 내부의 괄호는 작성 x
-~~~
-[1. 제목(Header)](#1-제목-header)<br>
-~~~
-[1. 제목(Header)](#1-제목-header)<br>
-
-
-#### 외부 링크
-~~~
-*더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
-~~~
-*더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
-
-### 7. 이미지(Image)
-- 비율로 지정 가능(width = "30%")
-~~~
-<img width="300" src="(이미지경로).png">
-~~~
-<img width="300" src="https://user-images.githubusercontent.com/68532437/211111919-861dab9f-5764-4f08-8057-83683e4f682a.png">
-
-- 이미지 클릭 시 원본 링크로 연결되는 
-~~~
-[![텍스트](이미지 파일 경로)](연결되고 싶은 링크 주소)
-~~~
-```
-[![inodeDataBlock구조](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe5485c09-fe76-4d1f-a007-550ce005c1c2%2FUntitled.png&blockId=05be8ef1-f3d0-4b29-8a4b-e8b18f2de89f)](https://driip.me/dbd9bc58-0ce1-437b-af4f-7b2bde2b1bf3)
-```
-[![inodeDataBlock구조](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe5485c09-fe76-4d1f-a007-550ce005c1c2%2FUntitled.png&blockId=05be8ef1-f3d0-4b29-8a4b-e8b18f2de89f)](https://driip.me/dbd9bc58-0ce1-437b-af4f-7b2bde2b1bf3)
-
-:warning: 궁금한 점: 이렇게 이미지 클릭 시 원본 링크로 연결되도록 하면, 이미지의 크기는 수정할 수 없나?
-
 
 ### 8. 표(Table)
+
 ### 9. 이모티콘
 ~~~
 :sparkles:
@@ -238,10 +251,6 @@ $\textcolor{green}{\text{Hello, }}$ Welcome!
 # gray
 @@ purple + bold @@
 ```
-### 13. 공백(blank)
-- https://kimasill.tistory.com/entry/MarkDown-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0%EA%B3%B5%EB%B0%B1-%EC%A4%84%EB%B0%94%EA%BF%88-%EC%82%AC%EC%9A%A9%EB%B2%95
-- 1. 특수 코드 `&nbsp;` 사용
-- 2. 전각 공백 사용: :star2:  :star2: 
 
  
  <!-- ### 13. 체크박스
