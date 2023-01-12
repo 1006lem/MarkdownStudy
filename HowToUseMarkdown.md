@@ -47,7 +47,6 @@
 <!--https://kimasill.tistory.com/entry/MarkDown-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0%EA%B3%B5%EB%B0%B1-%EC%A4%84%EB%B0%94%EA%BF%88-%EC%82%AC%EC%9A%A9%EB%B2%95 -->
 - 1. 특수 코드 `&nbsp;` 사용
 - 2. 전각 공백 사용: :star2:  :star2: 
-- 
 <br>
 
 ### 1. 링크(Link)
