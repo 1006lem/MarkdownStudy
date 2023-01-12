@@ -28,15 +28,15 @@
 ---
 ## 문법
 ### 🌟 목차
-[1. 제목(Header)](1.제목-Header)<br>
-[2. 강조(Enphasis)](2.강조-Emphasis)<br>
-[3. 인용(Block-quotes)](3.인용-Block-Quotes)<br>
-[4. 코드 블럭(Code Block)](4.코드블럭-CodeBlock)<br>
-[5. 리스트(List))](5.리스트-List)<br>
-[6. 링크(Link))](6.링크-Link)<br>
-[7. 이미지(Image)](7.이미지-Image)<br>
-[8. 표(Table)](8.표-Table)<br>
-[9. 이모티콘](9.이모티콘)<br>
+[1. 제목(Header)](#1.제목-Header)<br>
+[2. 강조(Enphasis)](#2.강조-Emphasis)<br>
+[3. 인용(Block-quotes)](#3.인용-Block-Quotes)<br>
+[4. 코드 블럭(Code Block)](#4.코드블럭-CodeBlock)<br>
+[5. 리스트(List))](#5.리스트-List)<br>
+[6. 링크(Link))](#6.링크-Link)<br>
+[7. 이미지(Image)](#7.이미지-Image)<br>
+[8. 표(Table)](#8.표-Table)<br>
+[9. 이모티콘](#9.이모티콘)<br>
 
 ---
 ### 1. 제목(Header)
@@ -125,10 +125,14 @@ you can just use Tilede(~)
  
 ### 6. 링크(Link)
 #### 내부 링크
+- 문자의 공백은 `-` 로 
+<!--https://uiyoji-journal.tistory.com/45-->
 ~~~
 [1. 제목(Header)](1.제목-Header)<br>
 ~~~
 [1. 제목(Header)](1.제목-Header)<br>
+
+
 #### 외부 링크
 ~~~
 *더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
