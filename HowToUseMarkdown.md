@@ -25,6 +25,7 @@
   - <a href="https://wwlee94.github.io/category/blog/getting-started-markdown/">마크다운 (Markdown) 문법 알아보기</a>  
   - <a href="https://80000coding.oopy.io/bbfbfed5-d55c-4aaf-a2b8-b52578472d0d">마크다운 초보가 쓰는 마크다운 고수되는 법</a>        
   - <a href="https://github.com/yona-projects/yona/issues/474  ">마크다운 color text</a>     
+  - <a href="https://jihyehwang09.github.io/2020/03/04/markdown-how-to-make-link/">목차쓰기</a>
 ---
 ## 문법
 ### 🌟 목차
@@ -127,12 +128,12 @@ you can just use Tilede(~)
 #### 내부 링크
 - 문자의 공백은 `-` 로 
 - 영어는 소문자로
-<!--https://uiyoji-journal.tistory.com/45-->
-<!--https://png93.github.io/markdown-link/#coding%EC%9D%84-%EC%9E%98%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%96%B4%EC%9A%94-->
+- 특수 문자(`.`, `?`, ''...) 는 작성 x
+- 내부의 괄호는 작성 x
 ~~~
-[1. 제목(Header)](#1.-제목-header)<br>
+[1. 제목(Header)](#1-제목-header)<br>
 ~~~
-[1. 제목(Header)](#1.-제목-header)<br>
+[1. 제목(Header)](#1-제목-header)<br>
 
 
 #### 외부 링크
