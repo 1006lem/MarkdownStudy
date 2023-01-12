@@ -68,6 +68,12 @@
 ~~~
 *더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md)** 을 참고하자*
 
+- 외부 링크의 특정 구역을 지정하고 싶다면
+~~~
+*더 자세한 내용은 다음 링크의 **[2.4 할당 방법](https://github.com/boanlab/study-notes/blob/main/major_subjects/operating_system/06_fileSystem/README.md/#24-할당-방법)** 을 참고하자*
+~~~
+
+
 <br>
 
 ### 2. 이미지(Image)
